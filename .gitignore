@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads (keep structure, ignore content)
+backend/uploads/**/*
+!backend/uploads/.gitkeep
+!backend/uploads/bank-slips/.gitkeep
+!backend/uploads/id-proofs/.gitkeep
+!backend/uploads/medical-clearances/.gitkeep
+!backend/uploads/photos/.gitkeep
+!backend/uploads/ecards/.gitkeep
+
+# Coverage
+coverage/
